@@ -1,0 +1,145 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;800;900&display=swap);
+    
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(90deg, #003b3f, #00d4db);
+    font-family:'Poppins', sans-serif;
+}
+.nav{
+display: flex;
+justify-content: center;
+align-items: flex-end;
+justify-content: space-between;
+background-color: #ffffff;
+
+}
+.user .fa{
+    color: #00373b;
+}
+
+#Log{
+    text-transform: lowercase;
+    font-weight: 600;
+    color: #e6fdff;
+    margin: 30px;
+    background-color: #00373b;
+    padding: 8px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+ul{
+list-style: none;
+display: flex;
+flex-direction: row;
+margin-right: 10px;
+word-spacing: 10px;
+padding-right: 10px;
+/* justify-content: flex-end; */
+
+}
+li{
+    margin: 10px;
+    color: #00373b;
+    font-weight: 500;
+    cursor: pointer;
+}
+li i{
+    margin-right: 6px;
+    color: #009185;
+}
+h1{
+    background: linear-gradient(45deg, #01ffc8, #005457);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+    /* color: rgb(1, 29, 25); */
+    font-size: 70px;
+
+}
+h1 sub{
+    font-size:medium;
+    margin: 0;
+    padding: 0;
+    color: #003b3f;
+}
+.container{
+    display: flex;
+    height: 140px;
+    width: 100%;
+    background: linear-gradient(90deg, #ffffff, #befdff);
+    display: flex;
+    /* border-bottom-left-radius: 29px 78px  ; */
+    /* border-bottom-right-radius:79px 28px  ; */
+    align-items: center;
+    justify-content: center;
+}
+.first{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.body{
+    display: flex;
+    flex-direction: row;
+    /* margin-top: 10px; */
+    justify-content: center;
+    margin: 10px;
+}
+.parta{
+    background-image:linear-gradient(90deg, #00ffeac5, #07f37d00), url("Point of sale payment system illustration.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 270px;
+    width:40%;
+    /* margin: 10px; */
+    /* border-radius: 20px; */
+}
+.partb{
+    background-color: white;
+    height: 270px;
+    width:50%;
+    /* margin: 10px; */
+    /* border-radius: 20px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+    
+}
+.in{
+    font-size: x-large;
+    align-self: flex-end;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+.inner{
+    color: #00373b;
+    font-weight: 500;
+    width: 75%;
+    /* height: 89px; */
+    font-weight: 500;
+    margin: 30px;
+    align-self: flex-end;
+    font-size: 15px;
+}
+#check{
+    /* justify-self: right; */
+    align-self: flex-end;
+    margin-bottom: 30px;
+    margin-right: 30px;
+    border-radius: 20px;
+    background-color: #00373b;
+    padding: 10px;
+    width: fit-content;
+    height: fit-content;
+    color: #ffffff;
+    font-weight: bold;
+    border: none;
+    outline: hidden;
+
+}
+#check:hover{
+    background-color: #009185;
+}
