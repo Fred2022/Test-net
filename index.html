@@ -1,11 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+   
+
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" type="image/x-icon" href="./krick.png">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Market-Place</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+
+<style>
+    @media (max-width:390px) {
+       
+        #Log{
+            color: rgb(255, 255, 255);
+            padding: 5px;
+            font-size: 13px;
+            /* display: flex; */
+            margin-top: -10px;
+            align-items: flex-start;
+            justify-content: flex-start;
+
+        }
+        #check2{
+            margin-top: 13px;
+            /* margin: 0px; */
+        }
+        .para1{
+            width: 119px;
+            font-size: 12px;
+        }
+        .inner{
+            width: 120px;
+            font-size: 13px;
+        }
+        .fhead{
+            font-size: 43px;
+        }
+        .fsub{
+            font-size: 12px;
+        }
+    }
+</style>
+
 </head>
 <body>
     <div class="nav">
@@ -15,7 +56,7 @@
     <span id="Log">Login</span>
 </div>
 
-        <ul>
+        <ul class="navgat">
             <li><i class="fa fa-home"></i>Home</li>
             <li><i class="fa-solid fa-location-dot"></i>contact</li>
             <li> <i class="fa-solid fa-cart-shopping"></i>Order</li>
@@ -26,8 +67,8 @@
        
 
     <div class="fisrt">
-        <h1>
-            Head <sub>Company</sub>
+        <h1  class="fhead">
+            Krick <sub class="fsub">Company</sub>
         </h1>
     </div>
 </div>
@@ -39,17 +80,52 @@
 </div>
 
 <div class="partb">
-<h1 class="in">Content</h1>
+<h1 class="in">Services</h1>
 <p class="inner">
     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium est odio quibusdam ea quas, reprehenderit 
 </p>
 <button id="check">Check-in</button>
 </div>
-
-
-
-
-   
 </div>
+<div class="container_2">
+
+ <div class="sec1">
+<h1 class="Concept">
+    Concepts
+</h1>
+<p class="para1">
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor dolorem doloremque, beatae accusamus error quidem 
+    <button id="check2">Check-in</button>
+</p>
+
+
+ </div>
+
+ <div class="sec2">
+
+ </div>
+
+
+    </div>
+
+    <div class="general">
+        
+<div id="conhid">
+
+    <h2 class="ahead">
+        Welcome
+    </h2>
+    <p class="abody">
+        Thank you for signing up to this site do you want to sign in to get the best of our services at our disposal.
+
+    </p>
+    <button class="abutton">
+        Continue
+    </button>
+
+</div>
+    </div>
+
+<script src="index.js"></script>
 </body>
 </html>
